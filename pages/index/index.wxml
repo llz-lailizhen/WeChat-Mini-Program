@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="page-body">
+ 
+    <view class="button-sp-area">
+      <button class="mini-btn-1"  size="mini">洗衣房</button>
+      <button class="mini-btn-2"  size="mini">充电棚</button>
+    </view>
+    <view class="button-sp-area">
+      <button class="mini-btn-3"  size="mini">其他1</button>
+      <button class="mini-btn-4"  size="mini">其他2</button>
+    </view>
+  </view>

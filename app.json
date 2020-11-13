@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4"
+  ],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1662D5",
+    "navigationBarTitleText": "排队无忧",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#1662D5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/首页.png",
+        "selectedIconPath": "image/首页1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "iconPath": "image/发现.png",
+        "selectedIconPath": "image/发现1.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/page3/page3",
+        "iconPath": "image/社交.png",
+        "selectedIconPath": "image/社交1.png",
+        "text": "社交"
+      },
+      {
+        "pagePath": "pages/page4/page4",
+        "iconPath": "image/我的.png",
+        "selectedIconPath": "image/我的2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "weui": true
+  },
+  "usingComponents": {
+    "mp-icon": "/components/icon/icon"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
